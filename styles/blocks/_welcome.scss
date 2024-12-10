@@ -1,0 +1,52 @@
+.welcome {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../images/welcome.png') center/cover no-repeat;
+    background-color: #24242C;
+    color: var(--color-white);
+    text-align: center;
+    padding: 195px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+    }
+
+    &__title {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+    }
+}
+
+* {
+    perspective: 500px;
+}
+
+.test {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    background-color: rebeccapurple;
+    box-shadow: 2px 2px 4px green;
+    text-shadow: 2px 2px 3px white;
+    transition: 1s ;
+    animation-duration: infinite;
+}
+
+.test:hover {
+    transform: rotateX(30deg);
+}

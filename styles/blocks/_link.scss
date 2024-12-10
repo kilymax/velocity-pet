@@ -1,0 +1,37 @@
+.link {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-family: var(--font-family);
+    line-height: 131%;
+    transition: background-color 0.3s;
+    transition: border-color 0.3s;
+
+    &:hover {
+        border-color: #8AC9FF;
+        background-color: rgba($color: #8AC9FF, $alpha: 0.2);
+    }
+
+    &:active {
+        border-color: #1994FF;
+        background-color: rgba($color: #1994FF, $alpha: 0.2);
+    }
+
+    &-primary {
+        background-color: var(--color-light-blue);
+        border-color: var(--color-light-blue);
+
+        &:hover {
+            background-color: #8AC9FF;
+        }
+    
+        &:active {
+            background-color: #1994FF;
+        }
+    }
+}

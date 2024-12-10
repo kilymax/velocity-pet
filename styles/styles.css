@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-family-base: "Open Sans", "sans-serif";
+  --color-gray: #676770;
+  --color-light-gray: #8E8E9C;
+  --color-light-blue: #69B9FF;
+  --color-blue: #0082F3;
+  --color-dark-blue: #0065BD;
+  --color-gray-blue: #6A859C;
+  --color-white: #FFFFFF;
+  --container-width: 940px;
+  --container-padding-x: 15px;
+  --header-height: 60px;
+}
+
+/* Общие стили */
+body {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+p {
+  color: #6A859C;
+  line-height: 1.79;
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+*, *::before, ::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+a, a:visited, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+img, svg, video {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-flex;
+  box-shadow: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  min-height: var(--header-height);
+  align-items: center;
+}
+.header__logo {
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #69b9ff;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-around;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-right: 20px;
+}
+.header__nav-item {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--color-gray);
+  transition: color 0.3s;
+}
+.header__nav-item:hover {
+  color: var(--color-blue);
+}
+.header__nav-item:active {
+  color: var(--color-dark-blue);
+}
+
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../images/welcome.png") center/cover no-repeat;
+  background-color: #24242C;
+  color: var(--color-white);
+  text-align: center;
+  padding: 195px;
+}
+.welcome__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+.welcome__title {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.welcome__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+* {
+  perspective: 500px;
+}
+
+.test {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  background-color: rebeccapurple;
+  box-shadow: 2px 2px 4px green;
+  text-shadow: 2px 2px 3px white;
+  transition: 1s;
+  animation-duration: infinite;
+}
+
+.test:hover {
+  transform: rotateX(30deg);
+}
+
+.link {
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 12px 30px;
+  font-family: var(--font-family);
+  line-height: 131%;
+  transition: background-color 0.3s;
+  transition: border-color 0.3s;
+}
+.link:hover {
+  border-color: #8AC9FF;
+  background-color: rgba(138, 201, 255, 0.2);
+}
+.link:active {
+  border-color: #1994FF;
+  background-color: rgba(25, 148, 255, 0.2);
+}
+.link-primary {
+  background-color: var(--color-light-blue);
+  border-color: var(--color-light-blue);
+}
+.link-primary:hover {
+  background-color: #8AC9FF;
+}
+.link-primary:active {
+  background-color: #1994FF;
+}/*# sourceMappingURL=styles.css.map */
