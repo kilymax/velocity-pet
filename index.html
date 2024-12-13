@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Velocity</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container header__inner">
@@ -36,19 +38,143 @@
                 </div>
             </div>
         </section>
-        <section class="welcome">
-            <div class="container welcome__inner">
-                <h2 class="welcome__title">This is Velocity</h2>
-                <div class="welcome__links">
-                    <a href="#!" class="link link-primary">Sign up</a>
-                    <a href="#!" class="link">Learn more</a>
+
+        <section class="about common-section--light">
+            <div class="container about__inner">
+                <div class="title-wrapper">
+                    <h3 class="title-wrapper__title">What we do</h3>
+                    <p class="title-wrapper__subtitle">We are doing beautiful things here.</p>
+                </div>
+                <div class="about__cards">
+                    <div class="about__card">
+                        <img src="images/icons/icon1.svg" alt="">
+                        <h4>Graphic design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                    <div class="about__card">
+                        <img src="images/icons/icon2.svg" alt="">
+                        <h4>Awesome code</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                    <div class="about__card">
+                        <img src="images/icons/icon3.svg" alt="">
+                        <h4>Free template</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services common-section--dark">
+            <div class="container services__inner">
+                <div class="title-wrapper">
+                    <h3 class="title-wrapper__title">Services</h3>
+                    <p class="title-wrapper__subtitle">We are doing useful things here.</p>
+                </div>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <img src="./images/services1.jpg" alt="beautiful bridge of a big city">
+                        <h4 class="services__title">Service one</h4>
+                        <div class="services__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse&nbsp;varius.</p>
+                        </div>
+                        <div class="services__link">
+                            <a href="!#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <img src="./images/services2.jpg" alt="person in headphones">
+                        <h4 class="services__title">Service two</h4>
+                        <div class="services__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse&nbsp;varius.</p>
+                        </div>
+                        <div class="services__link">
+                            <a href="!#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="future common-section--light">
+            <div class="container future__inner">
+                <div class="title-wrapper">
+                    <h3 class="title-wrapper__title">Future</h3>
+                    <p class="title-wrapper__subtitle">See in the future and enjoy it!</p>
+                </div>
+                <div class="future__wrapper">
+                    <div class="future__nav">
+                        <div class="future__tabs">
+                            <button class="tab-button active" type="button">Tab Button 1</button>
+                            <button class="tab-button" type="button">Tab Button 2</button>
+                            <button class="tab-button" type="button">Tab Button 3</button>
+                        </div>
+                    </div>
+                    <div class="future__content">
+                        <div class="future__pic">
+                            <img src="./images/tab-image1.jpg" alt="Man looks into the distance ">
+                        </div>
+                        <h4 class="future__title">Great things are coming</h4>
+                        <div class="future__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.<br />
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.<br />
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
+        <div class="container footer__main">
+            <div class="footer__about">
+                <h4 class="footer__title">About velocity</h4>
+                <div class="footer__description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                        commodo diam libero vitae erat.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__links">
+                <h4 class="footer__title">Useful links</h4>
+                <ul class="footer__links-wrapper">
+                    <li><a class="footer__link" href="/">Phasellus gravida semper nisi</a></li>
+                    <li><a class="footer__link" href="/">Suspendisse nisl elit</a></li>
+                    <li><a class="footer__link" href="/">Dellentesque habitant morbi</a></li>
+                    <li><a class="footer__link" href="/">Etiam sollicitudin ipsum</a></li>
+                </ul>
+            </div>
+            <div class="footer__soc1als">
+                <h4 class="footer__title">Socials</h4>
+                <ul>
+                    <li><a href="/"><img src="./images/icons/twitter.svg" alt="Twitter">Twitter</a></li>
+                    <li><a href="/"><img src="./images/icons/facebook.svg" alt="Facebook">Facebook</a></li>
+                    <li><a href="/"><img src="./images/icons/pinterest.svg" alt="Pinterest">Pinterest</a></li>
+                    <li><a href="/"><img src="./images/icons/google.svg" alt="Google">Google</a></li>
+                    <li><a href="/"><img src="./images/icons/webflow.svg" alt="Webflow">Webflow</a></li>
+                </ul>
 
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <p>Copyright Velocity Inc. Made in Webflow.</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

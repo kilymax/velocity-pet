@@ -1,0 +1,37 @@
+.services {
+    &__cards {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+        padding: 15px;
+    }
+
+    &__title {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__description {
+        padding-inline: 15px;
+        text-align: center;
+
+        &P {
+            color: #e8e8e8;
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,38 @@
+.future {
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    &__tabs {
+        display: flex;
+        column-gap: 16px;
+    }
+
+    &__pic {
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 31px;
+        line-height: 116%;
+        text-align: center;
+        color: #676770;
+    }
+
+    &__description {
+        font-size: 13px;
+        line-height: 192%;
+        text-align: center;
+        color: #6a859c;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}

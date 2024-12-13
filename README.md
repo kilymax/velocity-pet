@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lostie21yo/velocity-pet">
-    <img src="images\icons\logo.jpeg" alt="Velocity Logo" width="120" >
+    <img src="images\icons\logo.jpg" alt="Velocity Logo" width="120" >
   </a>
 </div>
 
@@ -43,7 +43,7 @@ Adaptive layout using HTML and preprocessor SCSS according to the BEM methodolog
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-You can also open an already running application using [Vercel](https://positivus-dusky.vercel.app/)
+You can also open an already running application using [Vercel]()
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 

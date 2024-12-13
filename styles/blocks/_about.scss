@@ -1,0 +1,48 @@
+.about {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cards {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 16px;
+        padding-block: 36px 23px;
+        border: 1px solid #dcebf7;
+        border-radius: 5px;
+        width: 300px;
+        height: 291px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 14px;
+
+        img {
+            width: 95px;
+            aspect-ratio: 1;
+        }
+
+        h4 {
+            font-size: 20px;
+            line-height: 1.5;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--color-gray);
+        }
+
+        p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 179%;
+            text-align: center;
+            color: #6a859c;
+        }
+    }
+}
