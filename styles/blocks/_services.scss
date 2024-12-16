@@ -2,6 +2,12 @@
     &__cards {
         display: flex;
         column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 
     &__card {

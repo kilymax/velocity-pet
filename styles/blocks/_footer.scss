@@ -4,6 +4,24 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin-bottom: 35px;
+        gap: 24px;
+
+        @include mobile {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+        @include mobile-s {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__about {
+        @include mobile {
+            grid-column: span 2;
+        }
+        @include mobile-s {
+            grid-column: 1;
+        }
     }
 
     &__about,
@@ -37,6 +55,8 @@
     &__links li {
         padding-bottom: 12px;
         border-bottom: 1px solid #d5d5e0;
+
+
     }
 
     &__soc1als {
@@ -73,6 +93,10 @@
     &__copyright {
         background-color: #383838;
         padding-block: 40px;
+
+        @include mobile {
+            padding-block: 25px;
+        }
 
         p {
             font-size: 15px;

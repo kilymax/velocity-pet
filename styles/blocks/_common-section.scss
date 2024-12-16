@@ -2,7 +2,12 @@
 
     &--light {
         background-color: #fff;
-        padding-block: 80px;
+
+        @include mobile {
+            --section-padding-block: 40px;
+        }
+        
+        padding-block: var(--section-padding-block);
 
         .title-wrapper__title {
             color: #676770;
@@ -11,7 +16,7 @@
         .title-wrapper__subtitle {
             color: #8E8E9C;
         }
-        
+
         .link {
             border: 1px solid #676770;
             border-radius: 4px;
@@ -21,16 +26,22 @@
     &--dark {
         color: #fff;
         background-color: #192024;
-        padding-block: 80px;
+        padding-block: var(--section-padding-block);
+
+        @include mobile {
+            --section-padding-block: 40px;
+        }
+
+        .title-wrapper__title {
+            color: #fff;
+        }
+
+        .title-wrapper__subtitle {
+            color: #E8E8E8;
+        }
     }
+}
 
-    .title-wrapper__title {
-        color: #fff;
-    }
-
-    .title-wrapper__subtitle {
-        color: #E8E8E8;
-    }
-
-
+.hide {
+    display: none !important;
 }

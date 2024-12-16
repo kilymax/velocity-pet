@@ -7,13 +7,16 @@
     background-color: #24242C;
     color: var(--color-white);
     text-align: center;
-    padding: 195px;
+    padding-block: 195px;
+
+    @include mobile {
+        padding-block: 120px;
+    }
 
     &__inner {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 200px;
     }
 
     &__title {
@@ -21,32 +24,30 @@
         line-height: 1;
         letter-spacing: 0.07em;
         text-transform: uppercase;
+        margin-bottom: 80px;
+
+        @include mobile {
+            font-size: 45px;
+            margin-bottom: 60px;
+        }
     }
 
     &__links {
         display: flex;
         justify-content: center;
         align-items: center;
-        column-gap: 20px;
+        gap: 20px;
+
+        @include mobile-s {
+            flex-direction: column;
+
+            .link {
+                width: 80%;
+            }
+        }
     }
 }
 
 * {
     perspective: 500px;
-}
-
-.test {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    font-size: 25px;
-    background-color: rebeccapurple;
-    box-shadow: 2px 2px 4px green;
-    text-shadow: 2px 2px 3px white;
-    transition: 1s ;
-    animation-duration: infinite;
-}
-
-.test:hover {
-    transform: rotateX(30deg);
 }

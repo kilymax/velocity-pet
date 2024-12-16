@@ -18,17 +18,17 @@
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">Home</a>
+                        <a href="#home" class="header__nav-link">Home</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#!" class="header__nav-link">Contact</a>
+                        <a href="#footer" class="header__nav-link">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="main">
+    <main id="home" class="main">
         <section class="welcome">
             <div class="container welcome__inner">
                 <h2 class="welcome__title">This is Velocity</h2>
@@ -117,9 +117,37 @@
                             <button class="tab-button" type="button">Tab Button 3</button>
                         </div>
                     </div>
-                    <div class="future__content">
+                    <div class="future__item">
                         <div class="future__pic">
-                            <img src="./images/tab-image1.jpg" alt="Man looks into the distance ">
+                            <img src="./images/tab-image1.jpg" alt="Long road in the forest" width="940" height="680">
+                        </div>
+                        <h4 class="future__title">Believe in yourself</h4>
+                        <div class="future__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.<br />
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.<br />
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.</p>
+                        </div>
+                    </div>
+                    <div class="future__item">
+                        <div class="future__pic">
+                            <img src="./images/tab-image2.jpg" alt="man in the crystal clear water looks at the mountain">
+                        </div>
+                        <h4 class="future__title">Try your best</h4>
+                        <div class="future__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.<br />
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                                vitae erat.<br />
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                                tristique posuere.</p>
+                        </div>
+                    </div>
+                    <div class="future__item">
+                        <div class="future__pic">
+                            <img src="./images/tab-image3.jpg" alt="awesome sunset">
                         </div>
                         <h4 class="future__title">Great things are coming</h4>
                         <div class="future__description">
@@ -136,7 +164,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container footer__main">
             <div class="footer__about">
                 <h4 class="footer__title">About velocity</h4>
@@ -166,7 +194,6 @@
                     <li><a href="/"><img src="./images/icons/google.svg" alt="Google">Google</a></li>
                     <li><a href="/"><img src="./images/icons/webflow.svg" alt="Webflow">Webflow</a></li>
                 </ul>
-
             </div>
         </div>
         <div class="footer__copyright">
@@ -175,6 +202,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

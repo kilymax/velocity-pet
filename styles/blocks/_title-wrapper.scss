@@ -6,6 +6,10 @@
     row-gap: 17px;
     margin-bottom: 60px;
 
+    @include mobile {
+        margin-bottom: 30px;
+    }
+
     &__title {
         font-size: 30px;
         line-height: 120%;
