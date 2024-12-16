@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Adaptive layout using HTML and preprocessor SCSS according to the BEM methodology.
+Adaptive layout using HTML and preprocessor SCSS according to the BEM methodology with a little JS functionality.
 
 <!-- Demo video on YouTube [here](https://www.youtube.com/watch?v=4na8KFVoyZM&list=PL4lVqWiqXeK15HICGgnRiJTThgfftHEyt&index=5) -->
 
@@ -40,10 +40,11 @@ Adaptive layout using HTML and preprocessor SCSS according to the BEM methodolog
 
 * HTML
 * CSS (SCSS)
+* JS
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-You can also open an already running application using [Vercel]()
+You can also open an already running application using [GitHub Pages](https://lostie21yo.github.io/velocity-pet/)
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
@@ -52,7 +53,7 @@ You can also open an already running application using [Vercel]()
 
 Ilya K - [Telegram](https://t.me/leoncox) - leon.coxsw@gmail.com
 
-Project Link: [Positivus](https://github.com/lostie21yo/velocity-pet)
+Project Link: [Velocity](https://github.com/lostie21yo/velocity-pet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
