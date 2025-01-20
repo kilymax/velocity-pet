@@ -44,7 +44,7 @@ Adaptive layout using HTML and preprocessor SCSS according to the BEM methodolog
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-You can also open an already running application using GitHub Pages - [Velocity](https://kilymax.github.io/velocity-pet/)
+You can also open an already running application using GitHub Pages – [Velocity](https://kilymax.github.io/velocity-pet/)
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
